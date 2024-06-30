@@ -1,0 +1,21 @@
+{
+  "name": "@alienfast/prettier-config",
+  "description": "AlienFast's prettier config.",
+  "packageManager": "yarn@4.3.1",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/alienfast/prettier-config",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "type": "module",
+  "main": "index.json",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "author": "Kevin Ross <kevin.ross@alienfast.com>"
+}
