@@ -1,7 +1,7 @@
 {
   "name": "@alienfast/prettier-config",
   "description": "AlienFast's prettier config.",
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "yarn@4.6.0",
   "version": "1.0.0",
   "license": "MIT",
   "repository": "https://github.com/alienfast/prettier-config",
@@ -10,6 +10,9 @@
   },
   "type": "module",
   "main": "index.json",
+  "scripts": {
+    "release": "yarn auto shipit"
+  },
   "keywords": [
     "prettier",
     "prettier-config"
@@ -17,5 +20,19 @@
   "peerDependencies": {
     "prettier": "*"
   },
-  "author": "Kevin Ross <kevin.ross@alienfast.com>"
+  "author": "Kevin Ross <kevin.ross@alienfast.com>",
+  "devDependencies": {
+    "@auto-it/all-contributors": "^11.3.0",
+    "@auto-it/first-time-contributor": "^11.3.0",
+    "@auto-it/released": "^11.3.0",
+    "auto": "^11.3.0"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "first-time-contributor",
+      "released"
+    ]
+  }
 }
