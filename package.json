@@ -2,7 +2,7 @@
   "name": "@alienfast/prettier-config",
   "description": "AlienFast's prettier config.",
   "packageManager": "yarn@4.6.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": "https://github.com/alienfast/prettier-config",
   "publishConfig": {
