@@ -21,7 +21,7 @@ jobs:
           cache: 'yarn'
 
       # allow the lock file to change (updating our own workspace versions in monorepo)
-      # - run: yarn install --no-immutable
+      - run: yarn install --no-immutable
       # - run: yarn build
       # - run: yarn test
 
