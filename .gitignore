@@ -10,3 +10,4 @@ tsconfig.tsbuildinfo
 !.yarn/releases
 
 node_modules
+.env
