@@ -1,3 +1,15 @@
+# v1.0.2 (Fri Feb 07 2025)
+
+#### ⚠️ Pushed to `main`
+
+- remove private org auth ([@rosskevin](https://github.com/rosskevin))
+
+#### Authors: 1
+
+- Kevin Ross ([@rosskevin](https://github.com/rosskevin))
+
+---
+
 # v1.0.1 (Wed Jan 22 2025)
 
 :tada: This release contains work from a new contributor! :tada:
